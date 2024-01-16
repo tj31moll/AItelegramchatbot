@@ -22,7 +22,7 @@ This repository contains a Python script for a Telegram bot that integrates with
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/openai-telegram-bot.git](https://github.com/tj31moll/AItelegramchatbot)
+   git clone [https://github.com/tj31moll/AItelegramchatbot]
    ```
 
 2. Install the required packages:
