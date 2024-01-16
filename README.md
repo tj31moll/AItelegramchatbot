@@ -47,15 +47,14 @@ python bot.py
 
 ## Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check [issues page](link-to-issues-page).
+Contributions, issues, and feature requests are welcomed!
 
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 
-
-Acknowledgements
+##Acknowledgements
 Jan builds on top of other open-source projects: License - Jan is free and open source, under the AGPLv3 license.
 OpenAI
 Python and libraries
