@@ -1,6 +1,6 @@
 # AItelegramchatbot
 
-![Alt text](url-of-the-image)
+![Screenshot](https://github.com/tj31moll/AItelegramchatbot/assets/91799649/a6a7031e-014e-4a07-96b3-b460b4b1a9f5)
 
 This repository contains a Python script for a Telegram bot that integrates with OpenAI's API or other compatible REST APIs (like LMStudio or Jan). It's designed to provide an interactive AI experience through Telegram, using simple chat functionalities.
 
