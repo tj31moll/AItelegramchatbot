@@ -44,15 +44,16 @@ python bot.py
 - **Bot Token**: Replace `your-bot-token` in the script with your actual Telegram Bot Token.
 - **API Key**: Set up your OpenAI API key or the key for an alternative API.
 - **Allowed Chat IDs**: Define the chat IDs that are allowed to interact with the bot for security.
-
-Adding a System PromptSystem Prompt Configuration: To customize the behavior of your bot, you can add a system prompt. This prompt acts as an initial input to the AI model, influencing how the bot responds to user messages.To add a system prompt, locate the section in the script where the chat function is defined.Add a variable to hold your prompt, like system_prompt = "Your system prompt here".When creating the completion request to the OpenAI API, include the system_prompt as part of the input. For example:completion = client.chat.completions.create(
+- **System Prompt**: Adding a System PromptSystem Prompt Configuration: To customize the behavior of your bot, you can add a system prompt. This prompt acts as an initial input to the AI model, influencing how the bot responds to user messages.To add a system prompt, locate the section in the script where the chat function is defined.Add a variable to hold your prompt, like system_prompt = "Your system prompt here".When creating the completion request to the OpenAI API, include the system_prompt as part of the input. For example:
+```completion = client.chat.completions.create(
     model="local-model",
     messages=[
         {"role": "system", "content": system_prompt},
         {"role": "user", "content": user_message}
     ],
-    temperature=0.7,
-)This system prompt can include instructions or a specific tone/style you want the bot to follow, setting the context for its responses.ExampleHere's an example of setting a system prompt that instructs the bot to be friendly and informative:system_prompt = "Be friendly and informative in your responses."Remember, the system prompt is a powerful tool to guide the interaction flow and style of your bot. Feel free to experiment with different prompts to see how they affect the bot's behavior.
+    temperature=0.7,)```
+
+- This system prompt can include instructions or a specific tone/style you want the bot to follow, setting the context for its responses.ExampleHere's an example of setting a system prompt that instructs the bot to be friendly and informative:system_prompt = "Be friendly and informative in your responses."Remember, the system prompt is a powerful tool to guide the interaction flow and style of your bot. Feel free to experiment with different prompts to see how they affect the bot's behavior.
 
 ## Contributing
 
