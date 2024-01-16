@@ -51,12 +51,3 @@ Contributions, issues, and feature requests are welcome! Feel free to check [iss
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-## Contact
-
-Your Name – [@YourTwitter](https://twitter.com/YourTwitter) – email@example.com
-
-Project Link: [https://github.com/yourusername/openai-telegram-bot](https://github.com/yourusername/openai-telegram-bot)
-
----
-
-Remember to replace placeholders like `yourusername`, `YourTwitter`, and `email@example.com` with your actual GitHub username, Twitter handle, and email address. Also, ensure that the links are correct and relevant to your project.
