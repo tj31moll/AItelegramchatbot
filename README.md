@@ -57,6 +57,7 @@ python bot.py
 ```
 
 - This system prompt can include instructions or a specific tone/style you want the bot to follow, setting the context for its responses.ExampleHere's an example of setting a system prompt that instructs the bot to be friendly and informative:system_prompt = "Be friendly and informative in your responses."Remember, the system prompt is a powerful tool to guide the interaction flow and style of your bot. Feel free to experiment with different prompts to see how they affect the bot's behavior.
+- Note that only certain transfomrers allow system prompts. I have tested this with the Phi-2 model and transformer.
 
 ## Contributing
 
